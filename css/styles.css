@@ -904,12 +904,14 @@ margin-right: 0px;
 }
 
 /* Тень в портфолио (проекты) */
+
 .project-link {
     display: block;
     cursor: pointer;
 
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .project-link:hover,.project-link:focus {
     
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
@@ -919,14 +921,14 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
 
 /* Переходы и анимации в портфолео (проекты) */
  
+
 .project-overlay {
   position: relative;
   overflow: hidden; 
 }
 .project-overlay:hover .div-overlay {
 transform: translateY(0);
-}
-
+ }
 
  .div-overlay {
  
@@ -944,19 +946,16 @@ transform: translateY(0);
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(100%);
 }
+
 .text-overlay {
  
-color: var(--primary-white-color);
+    color: var(--primary-white-color);
    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 
-/*   display: flex;
-    align-items: center;
-    justify-content: center; */
-   
     padding: 63px 24px;  
 
     width: 100%;
@@ -977,5 +976,5 @@ color: var(--primary-white-color);
      opacity: 1;
 }
 .text-overlay:hover {
-opacity: 1;
+     opacity: 1;
 }
